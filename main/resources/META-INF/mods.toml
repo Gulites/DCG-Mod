@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+
+[[mods]]
+modId="dcg"
+version="1.0.0"
+displayName="Dying Craft Generator"
+credits="Thanks for downloading the mod!"
+authors="Eigulite for making the mod."
+description='''
+This is a mod that generates dying craft world nothing much.
+'''
+[[dependencies.dcg]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dcg]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
